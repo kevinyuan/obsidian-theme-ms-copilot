@@ -350,21 +350,6 @@ pre[class~="language-typescript"],
 pre[class~="language-ts"] { --cb-lang: "TypeScript"; }
 pre[class~="language-powershell"] { --cb-lang: "PowerShell"; }
 
-/* ---- Language flair in edit/live-preview mode ---- */
-.code-block-flair {
-  position: absolute;
-  top: 0;
-  left: 1.4em;
-  right: auto;
-  color: #FFFFFF;
-  font-weight: 500;
-  font-size: 0.85em;
-  line-height: 2.8em;
-  height: 2.8em;
-  background: none;
-  opacity: 1;
-  z-index: 2;
-}
 
 /* ---- Copy button — always visible, fixed at right ---- */
 .markdown-preview-view pre .copy-code-button,
