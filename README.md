@@ -1,63 +1,58 @@
 # MS Copilot Theme
 
-A warm, earthy Obsidian theme inspired by Microsoft Copilot's visual style. Features cream backgrounds, brown typography, and a distinctive red square marker on H2 headings.
+A warm, earthy Obsidian theme with cream backgrounds, brown typography, rounded tables, and chat bubble callouts.
 
-<table>
-  <tr>
-    <td><a href="screenshots/chat-bubble.png"><img src="screenshots/chat-bubble.png" alt="Chat Bubble" width="400"></a></td>
-    <td><a href="screenshots/headings-typography.png"><img src="screenshots/headings-typography.png" alt="Headings & Typography" width="400"></a></td>
-  </tr>
-  <tr>
-    <td><a href="screenshots/tables-blockquote.png"><img src="screenshots/tables-blockquote.png" alt="Tables & Blockquote" width="400"></a></td>
-    <td><a href="screenshots/code-lists.png"><img src="screenshots/code-lists.png" alt="Code & Lists" width="400"></a></td>
-  </tr>
-</table>
+## Preview
+
+> Click the image to view full size.
+
+<a href="screenshots/preview.png"><img src="screenshots/preview.png" alt="Theme Preview" width="520"></a>
 
 ## Features
 
-- **Warm color palette** — cream backgrounds with dark brown text
-- **Red square H2 marker** — distinctive heading decoration
-- **Rounded tables** — styled with warm header backgrounds
-- **Chat bubble callouts** — `> [!chat-r]` (right-aligned, user requests) and `> [!chat-l]` (left-aligned, responses)
-- **Styled code** — inline code and code blocks with warm tones
-- **Clean typography** — generous line height and paragraph spacing
+- Warm cream background with dark brown text
+- Rounded tables with warm-toned headers
+- Dark code blocks with language label and always-visible copy button
+- Chat bubble callouts (`chat-r` for right-aligned, `chat-l` for left-aligned)
+- Styled inline code, blockquotes, links, and lists
 
 ## Installation
 
-1. Open Obsidian **Settings** > **Appearance**
-2. Under **Themes**, click **Manage**
-3. Search for "MS Copilot Theme" and click **Install and use**
+### From Obsidian
 
-### Manual Installation
+1. Go to **Settings > Appearance > Themes > Manage**
+2. Search for **MS Copilot Theme** and install
+
+### Manual
 
 1. Download `theme.css` and `manifest.json`
-2. Create a folder called `ms-copilot-theme` in your vault's `.obsidian/themes/` directory
-3. Place both files inside the folder
-4. In Obsidian, go to **Settings** > **Appearance** and select **MS Copilot Theme**
+2. Place them in `.obsidian/themes/ms-copilot-theme/` inside your vault
+3. Select the theme in **Settings > Appearance**
 
 ## Chat Bubble Callouts
 
-Two callout types for conversational layouts:
+Use `[!chat-r]` and `[!chat-l]` for right- and left-aligned chat bubbles:
 
 ```markdown
 > [!chat-r]
-> Right-aligned bubble (user request)
+> This appears as a right-aligned bubble.
 
 > [!chat-l]
-> Left-aligned bubble (response)
+> This appears as a left-aligned bubble.
 ```
 
 ## Color Palette
 
-| Element       | Color                         |
-|---------------|-------------------------------|
-| Background    | `rgb(248, 244, 242)` cream    |
-| Body text     | `#3D3229` dark brown          |
-| Headings      | `#2C2319` darker brown        |
-| H2 marker     | `#B5382A` red                 |
-| Links         | `#A0522D` saddle brown        |
-| Inline code   | `#8B4513` on `#F0E8DC`        |
-| Borders       | `rgb(217, 199, 184)` warm tan |
+| Element     | Color                         |
+|-------------|-------------------------------|
+| Background  | `rgb(248, 244, 242)` cream    |
+| Body text   | `rgb(38, 35, 32)` dark brown  |
+| Headings    | `rgb(49, 45, 42)` brown       |
+| Links       | `#A0522D` saddle brown        |
+| Inline code | `#8B4513` on `#F0E8DC`        |
+| Borders     | `rgb(217, 199, 184)` warm tan |
+| Code blocks | `rgb(29, 26, 23)` dark        |
+| Chat bubble | `rgb(249, 227, 208)` peach    |
 
 ## License
 

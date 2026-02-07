@@ -58,20 +58,6 @@
   padding-bottom: 0.3em;
 }
 
-/* Red square before h2 */
-.markdown-preview-view h2::before,
-.markdown-rendered h2::before {
-  content: "";
-  display: inline-block;
-  width: 0.55em;
-  height: 0.55em;
-  background-color: #B5382A;
-  border-radius: 2px;
-  margin-right: 0.4em;
-  vertical-align: middle;
-  position: relative;
-  top: -0.08em;
-}
 
 .markdown-preview-view h3,
 .markdown-rendered h3 {

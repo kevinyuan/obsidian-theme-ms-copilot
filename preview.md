@@ -1,4 +1,4 @@
-# MS Copilot Theme Preview
+# Theme Preview
 
 ## Chat Bubbles
 
@@ -10,26 +10,14 @@
 
 ---
 
-## Headings & Typography
-
-This is body text demonstrating the warm cream background and dark brown typography. The theme uses generous line height and paragraph spacing for comfortable reading.
-
-This is a second paragraph to show the spacing between paragraphs.
-
-### Third-Level Heading
-
-Body text under an H3 heading.
-
----
-
 ## Table
 
-| Feature         | Status    | Notes                    |
-|-----------------|-----------|--------------------------|
-| Warm background | Done      | Cream `rgb(248,244,242)` |
-| Red H2 marker   | Done      | Square before H2         |
-| Rounded tables  | Done      | 8px border radius        |
-| Chat bubbles    | Done      | Custom callout type      |
+| Feature         | Status | Notes                    |
+|-----------------|--------|--------------------------|
+| Warm background | Done   | Cream `rgb(248,244,242)` |
+| Rounded tables  | Done   | 8px border radius        |
+| Chat bubbles    | Done   | `chat-r` and `chat-l`   |
+| Code blocks     | Done   | Dark with language label |
 
 ---
 
@@ -39,21 +27,10 @@ Body text under an H3 heading.
 
 ---
 
-## Text Formatting
-
-Here is **bold text** and *italic text* in a sentence. You can also combine ***bold and italic*** together.
-
-Visit [Obsidian](https://obsidian.md) for more information — links appear in saddle brown.
-
----
-
-## Inline Code & Code Block
-
-Use `console.log()` for inline code styling.
+## Code Block
 
 ```python
-import asyncioa 
-from typing import List, Dict
+from typing import List
 
 
 class DataProcessor:
@@ -68,15 +45,11 @@ class DataProcessor:
 
 ## Lists
 
-### Unordered List
-
 - First item
 - Second item
   - Nested item
   - Another nested item
 - Third item
-
-### Ordered List
 
 1. Step one
 2. Step two
