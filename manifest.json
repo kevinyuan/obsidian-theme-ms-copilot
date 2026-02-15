@@ -1,9 +1,10 @@
 {
-  "id": "ms-copilot-theme-plugin",
-  "name": "MS Copilot Theme Plugin",
+  "id": "chat-bubble-theme-plugin",
+  "name": "Chat Bubble Theme Plugin",
   "version": "1.0.0",
-  "minAppVersion": "0.15.6",
+  "minAppVersion": "1.0.0",
   "description": "Warm theme with chat callout outline injection. Bundled as a plugin because outline injection requires JavaScript, which pure CSS themes cannot provide.",
   "author": "Kevin",
+  "authorUrl": "https://github.com/kevinyuan",
   "isDesktopOnly": false
 }

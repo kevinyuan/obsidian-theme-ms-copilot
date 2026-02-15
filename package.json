@@ -1,7 +1,7 @@
 {
-	"name": "obsidian-ms-copilot-theme-plugin",
+	"name": "obsidian-chat-bubble-theme-plugin",
 	"version": "1.0.0",
-	"description": "Helix Warm theme with chat callout outline injection for Obsidian",
+	"description": "Warm theme with chat callout outline injection for Obsidian",
 	"main": "main.js",
 	"type": "module",
 	"scripts": {

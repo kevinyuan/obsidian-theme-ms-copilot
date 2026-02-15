@@ -50,7 +50,7 @@ export default class ChatCalloutOutlinePlugin extends Plugin {
 
 		// Inject dynamic CSS
 		this._styleEl = document.createElement("style");
-		this._styleEl.id = "ms-copilot-theme-dynamic";
+		this._styleEl.id = "chat-bubble-theme-dynamic";
 		document.head.appendChild(this._styleEl);
 		this._applyCSS();
 

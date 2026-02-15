@@ -1,6 +1,6 @@
-# MS Copilot Theme Plugin
+# Chat Bubble Theme Plugin
 
-A warm, earthy Obsidian theme with cream backgrounds, brown typography, rounded tables, and chat bubble callouts — bundled as a plugin.
+A warm, earthy Obsidian theme with cream backgrounds, brown typography, rounded tables, and chat bubble callouts — bundled as a plugin. Inspired by the reading experience of MS Copilot.
 
 ## Why a plugin instead of a pure theme?
 
@@ -24,11 +24,11 @@ All theme styling is now dynamically generated from plugin settings, giving full
 - Chat bubble callouts (`chat-r` for right-aligned, `chat-l` for left-aligned)
 - Styled inline code, blockquotes, links, and lists
 - Chat callouts visible in Outline / Quiet Outline as configurable heading entries
-- All visual settings configurable via **Settings > Community plugins > MS Copilot Theme Plugin**
+- All visual settings configurable via **Settings > Community plugins > Chat Bubble Theme Plugin**
 
 ## Settings
 
-Accessible from **Settings > Community plugins > MS Copilot Theme Plugin** (gear icon).
+Accessible from **Settings > Community plugins > Chat Bubble Theme Plugin** (gear icon).
 
 | Group | Options |
 |-------|---------|
@@ -38,7 +38,7 @@ Accessible from **Settings > Community plugins > MS Copilot Theme Plugin** (gear
 
 ## Installation
 
-1. Copy the `ms-copilot-theme-plugin` folder into `.obsidian/plugins/`
+1. Copy the `chat-bubble-theme` folder into `.obsidian/plugins/`
 2. Enable the plugin in **Settings > Community plugins**
 3. Set **Settings > Appearance > CSS Theme** to none (the plugin provides all styling)
 
