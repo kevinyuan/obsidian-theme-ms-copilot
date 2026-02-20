@@ -6,5 +6,6 @@
   "description": "Warm theme with chat callout outline injection. Bundled as a plugin because outline injection requires JavaScript, which pure CSS themes cannot provide.",
   "author": "Kevin",
   "authorUrl": "https://github.com/kevinyuan",
+  "fundingUrl": "https://github.com/kevinyuan",
   "isDesktopOnly": false
 }

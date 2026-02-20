@@ -32,10 +32,12 @@ Accessible from **Settings > Community plugins > Chat Bubble Theme Plugin** (gea
 
 | Group | Options |
 |-------|---------|
-| **Theme** | Enable/disable theme, markdown background color, code block radius, checkbox strikethrough |
-| **Chat Bubbles** | User (chat-r) and response (chat-l) bubble colors, max bubble width |
+| **Reset** | Reset all settings to defaults with one click |
+| **Theme** | Enable/disable theme, markdown background color (with preset palette), code block radius, checkbox strikethrough |
+| **Chat Bubbles** | User (chat-r) and response (chat-l) bubble colors (with preset palette), max bubble width |
 | **Outline Injection** | Enable/disable injection, per-callout toggle, heading prefix (e.g. "Q:" / "A:"), heading level, max display length |
 
+Color settings include a **preset palette** of 12 colors alongside the standard color picker for quick selection.
 ## Installation
 
 1. Copy the `chat-bubble-theme` folder into `.obsidian/plugins/`

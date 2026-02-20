@@ -1,0 +1,16 @@
+{
+  "enableThemeCSS": true,
+  "markdownBgColor": "#ffffff",
+  "codeBlockRadius": 14,
+  "checkboxStrikethrough": false,
+  "chatRBubbleColor": "#F9E3D0",
+  "chatLBubbleColor": "#F9E3D0",
+  "chatBubbleMaxWidth": 75,
+  "enableOutlineInjection": true,
+  "injectChatR": true,
+  "injectChatL": true,
+  "chatRPrefix": "",
+  "chatLPrefix": "",
+  "headingLevel": 1,
+  "maxDisplayLength": 80
+}
